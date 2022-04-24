@@ -1,0 +1,53 @@
+h1 {
+    font-size:4em;
+    font-family: 'Great Vibes';
+    text-align:center;
+}
+
+h2, main > h3 {
+    font-family: 'Song Myung';
+    text-align:center;
+}
+
+.fa-star {
+	color: gray;
+	cursor: pointer;
+}
+
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    font-size:1.5em;
+}
+
+.rating a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.rating a:hover, .rating a:focus {
+    color: rgb(229, 233, 31);
+    cursor: pointer;
+}
+.rating a:hover ~ a, .rating a:focus ~ a {
+   color: rgb(229, 233, 31);
+}
+
+.rating a {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+}
+
+.rating a:hover, .rating a:focus, .rating a:hover ~ a, .rating a:focus ~ a {
+   color: rgb(229, 233, 31);
+   cursor: pointer;
+}
+
+h3 + div {
+    width:90%;
+}
